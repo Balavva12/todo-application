@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'master',
-            url: https://github.com/Balavva12/todo-application.git
+            url: "https://github.com/Balavva12/todo-application.git"
             }
         }   
     }
