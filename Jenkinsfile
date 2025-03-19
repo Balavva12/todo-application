@@ -7,7 +7,7 @@ pipeline{
     stages{
         stage('Clone Repository'){
             steps{
-                git branch: 'master', 'url: https://github.com/Balavva12/todo-application.git'
+                git branch: 'master', url: 'https://github.com/Balavva12/todo-application.git'
             }
         }
 
